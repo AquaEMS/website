@@ -1,0 +1,16 @@
+language: node_js
+sudo: true
+dist: trusty
+node_js:
+  - 8
+
+deploy:
+  skip_cleanup: true
+  on:
+    branch: master
+    repo: aquaems/website
+  provider: script
+  script: bash .travis/deploy.sh
+
+notifications:
+  email: false
