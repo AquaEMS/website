@@ -448,18 +448,18 @@ img {
 /*----------------------
  ABOUT STYLE
 -----------------------*/
-.skill-list{
+.feature-list{
     padding-left: 30px;
     margin-top: 15px;
 }
-.skill-list li{
+.feature-list li{
     position: relative;
     color: #222;
     padding: 0px 0px 7px 30px;
 }
-.skill-list li:before{
+.feature-list li:before{
     position: absolute;
-    content:"\f560";
+    content:"\f00c";
     font-family: "Font Awesome 5 Free";
     left: 0px;
     top: 0px;
