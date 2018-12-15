@@ -4,4 +4,4 @@ ssh-add .travis/id_rsa # Add the private key to SSH
 
 ssh -o StrictHostKeyChecking=no travis@aquaems.com "/home/travis/deploy_aquaems.sh"
 
-exit 1
+exit 0
