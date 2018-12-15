@@ -15,7 +15,7 @@ deploy:
   skip_cleanup: true
   on:
     branch: master
-    repo: aquaems/website
+    repo: AquaEMS/website
   provider: script
   script: bash .travis/deploy.sh
 notifications:
