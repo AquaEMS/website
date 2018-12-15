@@ -7,7 +7,7 @@ before_install:
   -in .travis/id_rsa.enc -out .travis/id_rsa -d
 
 script:
-  echo "deploying..."
+  echo "running travis..."
 
 deploy:
   skip_cleanup: true
