@@ -1,8 +1,6 @@
-language: node_js
+language: minimal
 sudo: true
 dist: trusty
-node_js:
-- 8
 
 before_install:
 - openssl aes-256-cbc -K $encrypted_5868224eb028_key -iv $encrypted_5868224eb028_iv
